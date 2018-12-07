@@ -1,4 +1,5 @@
 pipeline {
+    agenty any 
     stages {
         stage('Build') { 
             steps {
@@ -7,3 +8,4 @@ pipeline {
         }
     }
 }
+
